@@ -1,14 +1,16 @@
-import React from 'react';}
+import React from 'react';
 import ReactDom from 'react-dom';
 import $ from 'jquery';
-
+import First from './components/first.jsx'
 
  class App extends React.Component{
 
-
    render(){
      return(
-       <h1>fetus</h1>
+       <div>
+        <h1>fetus</h1>
+        <First />
+        </div>
      )
    }
  }
